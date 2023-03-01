@@ -10,11 +10,11 @@ namespace bank1
     {
 
         static int pin;
-        static int balance = 40;
+        static int balance = 4500;
 
         static void Main(string[] args)
         {
-            Console.WriteLine("ENTER YOUR PIN:");
+            Console.WriteLine("ENTER YOUR PIN NUMBER");
             pin = int.Parse(Console.ReadLine());
 
             Console.WriteLine("CHECK BALANCE PRESS 1");
